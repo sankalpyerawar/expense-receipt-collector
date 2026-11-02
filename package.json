@@ -1,5 +1,5 @@
 {
-  "name": "receipts",
+  "name": "expense-receipt-collector",
   "version": "1.0.0",
   "description": "Collect monthly Uber, Blinkit and Foodbook receipts as PDFs and merge them for expense claims",
   "private": true,

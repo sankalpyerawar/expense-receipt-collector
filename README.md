@@ -1,4 +1,4 @@
-# receipts
+# expense-receipt-collector
 
 Collect your monthly **Uber**, **Blinkit** and **Foodbook** (SmartQ cafeteria)
 receipts as real invoice PDFs and merge them into one PDF per service, ready to
@@ -20,7 +20,7 @@ Nothing is sent anywhere. Everything stays on your machine.
 Requires [Node.js](https://nodejs.org) 18 or newer.
 
 ```bash
-git clone <this repo> && cd receipts
+git clone <this repo> && cd expense-receipt-collector
 npm run setup        # installs dependencies and the Chromium browser
 ```
 
