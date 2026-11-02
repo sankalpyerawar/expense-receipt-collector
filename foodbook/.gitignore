@@ -1,0 +1,6 @@
+node_modules/
+.foodbook-profile-*/
+.ready-signal-*
+debug/
+receipts/
+output/

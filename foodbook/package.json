@@ -1,0 +1,20 @@
+{
+  "name": "foodbook",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node src/index.js",
+    "scrape": "node src/scrape.js",
+    "merge": "node src/merge.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "type": "module",
+  "dependencies": {
+    "pdf-lib": "^1.17.1",
+    "pdfjs-dist": "^6.3.289",
+    "playwright": "^1.62.1"
+  }
+}

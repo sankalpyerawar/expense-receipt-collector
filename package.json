@@ -1,0 +1,14 @@
+{
+  "name": "receipts",
+  "version": "1.0.0",
+  "description": "Collect monthly Uber, Blinkit and Foodbook receipts as PDFs and merge them for expense claims",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "setup": "npm install && npm install --prefix uber && npm install --prefix blinkit && npm install --prefix foodbook && npx playwright install chromium",
+    "combine": "node scripts/combine.mjs"
+  },
+  "dependencies": {
+    "pdf-lib": "^1.17.1"
+  }
+}

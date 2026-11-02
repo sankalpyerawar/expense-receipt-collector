@@ -1,0 +1,6 @@
+node_modules/
+.blinkit-profile-*/
+.ready-signal-*
+debug/
+receipts/
+output/
